@@ -12,7 +12,7 @@ import "encoding/json"
 type GetBlockHeaderVerboseResult struct {
 	Hash          string  `json:"hash"`
 	Confirmations int64   `json:"confirmations"`
-	Height        int32   `json:"height"`
+	Height        int64   `json:"height"`
 	Version       int32   `json:"version"`
 	VersionHex    string  `json:"versionHex"`
 	MerkleRoot    string  `json:"merkleroot"`
